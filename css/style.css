@@ -1,0 +1,205 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+/* fixed = parallax
+  scroll = normal
+*/
+  background-attachment: scroll;
+}
+
+
+/* Headings */
+
+.pimg1 {
+  background-image: url('../img/earth-space.jpg');
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url('../img/nebula1.jpeg');
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url('../img/pleiades-star-cluster.jpeg');
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url('../img/nebula2.jpeg');
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 0.7em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  width: 40%;
+  margin: auto;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+/* CodePen Samples */
+
+.samples {
+  display: none;
+}
+
+/* Image Slider Settings */
+
+.carousel {
+  max-width: 500px;
+  margin: auto;
+}
+
+.mySlides {
+  width: 40%;
+  display: none;
+  margin: auto;
+  border: 4px solid white;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* Samples Section */
+#samplesButton {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.samples iframe {
+  margin: 20px 0;
+  padding: 0;
+  border: 5px solid #666;
+  border-radius: 20px;
+}
+
+/* Video Section */
+
+.video-link {
+  margin: auto;
+  padding: 0;
+  width: 60%;
+}
+
+
+
+
+/* Media Queries */
+
+@media(min-width: 768px) {
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+    background-attachment: fixed;
+  }
+  
+  .samples iframe {
+    width: 30%;
+    margin: 10px 20px;
+  }
+  
+  .mySlides {
+  width: 80%;
+  }
+  
+  
+  iframe {
+    padding: 20px
+  }
+  
+  .video-link {
+  width: 500px;
+  }
+
+}
+
+@media (min-width: 1270px) {
+  .samples iframe {
+    width: 30%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
